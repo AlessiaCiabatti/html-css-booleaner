@@ -2,6 +2,7 @@ body{
   font-family:'Times New Roman', Times, serif
 }
 
+/* header */
 .pattern-background {
   background-image: url('../img/pattern.png');
   height: 170px;
@@ -14,7 +15,7 @@ div img{
   padding-top: 70px;
 }
 
-
+/* main */
 div h1{
   margin-bottom: 0px;
 }
@@ -43,6 +44,7 @@ div p .background-yellow{
   background-color: yellow;
 }
 
+  /* table */
 table{
   border-collapse: collapse;
   width: 100%;
@@ -62,3 +64,25 @@ td, th {
 tr:nth-child(odd) {
   background-color: #b1e5f2;
 }
+  /* /table */
+
+  /* footer */
+  #first-img{
+    background-image: url(../img/monitor.jpg);
+  }
+
+  #second-img{
+    background-image: url(../img/graph.jpg);
+  }
+
+  .background-footer{
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  
+  p.footer-description{
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
