@@ -1,3 +1,7 @@
+body{
+  font-family:'Times New Roman', Times, serif
+}
+
 .pattern-background {
   background-image: url('../img/pattern.png');
   height: 170px;
@@ -10,16 +14,31 @@ div img{
   padding-top: 70px;
 }
 
+
 div h1{
   margin-bottom: 0px;
 }
 
-div p{
-  font-family: Arial, Helvetica, sans-serif;
+div p.grey{
   color: gray;
   margin: 0px;
 }
 
 #the-booleaner{
   color: #10a3e3;
+}
+
+div img{
+  padding-top: 20px;
+  height: 100%;
+}
+
+div p.description-img{
+  color: black;
+  font-size: 12px;
+  margin: 0px;
+}
+
+div p .background-yellow{
+  background-color: yellow;
 }
