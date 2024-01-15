@@ -42,3 +42,23 @@ div p.description-img{
 div p .background-yellow{
   background-color: yellow;
 }
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th{
+  background-color: #10a3e3;
+  color: white;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #b1e5f2;
+}
